@@ -1,0 +1,6 @@
+Sample code for creating sacred geometric shadograms based on FirstHand model at http://meru.org
+
+This project contains an ancient perl cgi which generates a vrlm file as well as a java applet, which relies on the java3d library.
+
+It is quite doubtful that this software runs as is, but the core algorithm for creating a FirstHand sprial by projecting the theta=1/r spiral onto a tourus should port pretty easily to any 3d framwork (next stop: html5 canvas element).
+
