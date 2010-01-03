@@ -1,8 +1,20 @@
 Sample code for creating sacred geometric shadograms based on FirstHand model at http://meru.org
 
+The software models the FirstHand sprial in 3D by projecting the theta=1/r spiral onto a tourus, and the algortithm should port pretty easily to any 3d framwork.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version. (See LICENSE for details).
+
 This project contains:
- ./vrml -  an ancient perl script which writes a vrlm file to stdout - if you have a vrml player, you might even be able to run this as a cgi, or generate a static vrml file and load this.
- ./applet -an a java applet, which relies on the java3d library.
+ == vrml model ==
+ ./vrml -  a perl script which writes a vrlm file to stdout - The program can  run this as a cgi, but until it accepts runtime paramters, you might as well  generate a static vrml file and load this in a vrml browser plugin (or directly in a vrml player (e.g. http://freewrl.sourceforge.net/)
+ == java applet ==
+ ./applet -an a java applet, which relies on the java3d library. It is quite doubtful that this software runs as is.
 
-It is quite doubtful that this software runs as is, but the core algorithm for creating a FirstHand sprial by projecting the theta=1/r spiral onto a tourus should port pretty easily to any 3d framwork (next stop: html5 canvas element).
-
+TODO: 
+* Create cylindrical thumb models, to occlude spiral and view the letter forms
+* expose spiral/tourus parameters
+* bookmark perspectives
+* implement FirstHand as an html5 canvas element).
